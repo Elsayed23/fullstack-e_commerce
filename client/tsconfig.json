@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/navbar/Navbar.jsx",
+    "components/ProductCard.jsx",
+    "app/_sections/RandomProducts.jsx",
+    "app/(routes)/contact/page.jsx",
+    "app/(routes)/cart/page.jsx",
+    "app/(routes)/wishlist/page.jsx",
+    "app/page.jsx",
+    "app/(context)/context.jsx",
+    "app/_sections/BestSelling.jsx",
+    "app/_components/SecTitle.jsx",
+    "app/_components/SecLine.jsx",
+    "app/loading.jsx",
+    "components/Footer.jsx",
+    "components/Loading.jsx",
+    "app/layout.jsx",
+    "app/api/products.js",
+    "app/(routes)/products/page.jsx",
+    "app/_sections/Hero.jsx",
+    "app/(routes)/about/page.jsx",
+    "app/(routes)/category_details/[id]/page.jsx",
+    "app/_components/CategoryCard.jsx",
+    "app/_sections/Categories.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
