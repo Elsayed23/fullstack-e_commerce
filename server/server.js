@@ -1,10 +1,10 @@
 const express = require('express')
 const cors = require('cors')
 require('dotenv').config()
-const cart = require('./routers/cart.router.js')
-const wishlist = require('./routers/wishlist.router.js')
-const products = require('./routers/product.router.js')
-const categories = require('./routers/category.router.js')
+const cart = require('./routes/cart.route.js')
+const wishlist = require('./routes/wishlist.route.js')
+const products = require('./routes/product.route.js')
+const categories = require('./routes/category.route.js')
 const path = require('path');
 
 const app = express()
