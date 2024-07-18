@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "./server.js",
+            "src": "./index.js",
             "use": "@vercel/node"
         }
     ],
@@ -12,8 +12,5 @@
             "dest": "/"
         }
     ],
-    "env": {
-        "DATABASE_URL": "mongodb+srv://elsayedkewan123:elsayed@cluster0.bdo5ekv.mongodb.net/e_commerce?retryWrites=true&w=majority&appName=Cluster0",
-        "PORT": "4000"
-    }
+    "installCommand": "npm install && npm run postinstall"
 }
