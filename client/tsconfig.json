@@ -39,7 +39,7 @@
     "app/(routes)/cart/page.jsx",
     "app/(routes)/wishlist/page.jsx",
     "app/page.jsx",
-    "app/(context)/context.jsx",
+    "app/(context)/context.js",
     "app/_sections/BestSelling.jsx",
     "app/_components/SecTitle.jsx",
     "app/_components/SecLine.jsx",
